@@ -3,9 +3,11 @@
 x <- rnorm(10)
 y <- 2 * x + rnorm(10)
 
-lm <- lm(y ~ x)
+linmod <- lm(y ~ x - 1)
 
 plot(x, y)
-abline(lm, col = 2)
+abline(linmod, col = 2)
+
+summary(linmod)
 
 
