@@ -1,6 +1,5 @@
 R.sublime-project
 R.sublime-workspace
-mortgage
-ts
-FUNCTIONS
-termstrc
+mortgage/
+ts/
+FUNCTIONS/
