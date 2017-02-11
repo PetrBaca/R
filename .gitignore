@@ -3,3 +3,5 @@ ts/
 FUNCTIONS/
 R.sublime-project
 R.sublime-workspace
+.Rproj.user
+/R_demo/R_demo.Rproj

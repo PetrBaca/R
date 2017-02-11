@@ -17,3 +17,12 @@ dat_raw <- Quandl("CHRIS/ICE_B1", type = "xts")
 dat <- fapply_aggregate(dat_raw)
 plot(dat[,"Settle"])
 
+summary(dat)
+
+sessionInfo()
+
+
+
+
+
+
